@@ -1,0 +1,103 @@
+html {
+    font-family: "Comic Sans MS", Regular, serif;
+    font-size: large;
+    background-image: url("/assets/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.headerdiv{
+    margin: -8px -8px 10px -8px;
+   /* margin: -12px -10px 50px -10px;*/
+    /*background: repeating-linear-gradient(45deg, #FFFFFF20, #FFFFFF20 10px, #FF000050 10px, #FF0000 20px);*/
+    background: linear-gradient(#79aec8, #52859f);
+    border-bottom: #52859f solid 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: #52859f 0 6px 5px;
+}
+
+.button{
+    border: solid #00ff00;
+    border-radius: 5px;
+    background-color: #00ff00;
+    box-shadow: 0 0 10px 5px #00ff00;
+    margin: 0 5px 0 5px;
+}
+
+.text{
+    width: min-content;
+    background-color: #E1BC0655;
+    border-color: #E1BC0655;
+    box-shadow: 0 0 10px 5px #E1BC0655;
+}
+
+.inb{
+    background-color: #E1BC06;
+    border-color: #E1BC06;
+    box-shadow: 0 0 10px 5px #E1BC06;
+}
+
+#icon{
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+}
+
+button{
+    font-family: "Comic Sans MS", Regular, serif ;
+    font-size: large;
+    border-radius: 20px;
+    border-style: solid;
+    transition: all 0.8s;
+}
+
+button:hover{
+    background-color: #f5dd5d;
+    border-color: #f5dd5d;
+    box-shadow: 0 0 10px 5px #f5dd5d;
+    transition: all 0.5s;
+}
+
+input{
+    font-family: "Comic Sans MS", Regular, serif ;
+    border-radius: 20px;
+    border-style: solid;
+    width: 50px;
+}
+
+
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: block;
+    width: 10px;
+    opacity: 1;
+    background-color: red;
+}
+
+.headblock{
+    margin: 15px;
+}
+
+.b{
+    font-size: x-large;
+    background-color: aqua;
+    border-color: aqua;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 5px aqua;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.myform{
+    background: rgba(255, 235, 92, 0.56);
+    border-radius: 100px;
+        box-shadow: 0 0 10px 5px rgba(255, 235, 92, 0.56);
+}
